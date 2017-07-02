@@ -1,0 +1,110 @@
+em, i {
+  font-style: italic;
+}
+
+strong, b {
+  font-weight: bold;
+}
+
+.divider {
+  margin: 2em;
+  border-bottom: solid black 1px;
+}
+
+html {
+  background: #d7ebf4;
+}
+
+/* has a media-query overwrite */
+#main {
+  font-family: 'Lora', serif;
+  margin: 3em auto 5em;
+  width: 500px;
+}
+
+#main a:link,
+#main a:hover,
+#main a:visited,
+#main a:active {
+  text-decoration: none;
+  color: #5f6377;
+}
+
+#main a:hover {
+  color: #8aace2;
+}
+
+/* has a media-query overwrite */
+#main h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+#main #bio {
+  font-size:   1.2em;
+  line-height: 1.2em;
+  margin: 1em;
+  text-align: justify;
+}
+
+#main #links {
+  font-size:   1.1em;
+  line-height: 1.1em;
+  margin: .5em;
+  text-align: center;
+}
+
+#main #links a:link,
+#main #links a:hover,
+#main #links a:visited,
+#main #links a:active {
+  border-bottom: #8aace2 double 4px;
+}
+
+#main #links ul li {
+  padding-bottom: .3em;
+  margin-bottom: .1em;
+}
+
+#main #history {
+  font-size:   1.1em;
+  line-height: 1.1em;
+  margin: 1em;
+}
+
+#main #history ul li {
+  margin: .5em 0;
+}
+
+#main #history .school {
+  font-weight: bold;
+}
+
+#main #history .degree {
+  padding-left: 1em;
+}
+
+/* has a media-query overwrite */
+#main #orchid img {
+  max-width: 500px;
+  max-height: 500px;
+  border-radius: 15px;
+}
+
+/* overwrites */
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+  #main {
+    width: 750px;
+  }
+
+  #main h1 {
+    font-size: 4em;
+  }
+
+  #main #orchid img {
+    max-width: 750px;
+    max-height: 750px;
+    border-radius: 35px;
+  }
+}
