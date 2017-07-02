@@ -36,7 +36,7 @@ html {
 
 /* has a media-query overwrite */
 #main h1 {
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Special Elite', cursive;
   font-size: 3em;
   text-align: center;
 }
@@ -99,7 +99,7 @@ html {
   }
 
   #main h1 {
-    font-size: 4em;
+    font-size: 5em;
   }
 
   #main #orchid img {
