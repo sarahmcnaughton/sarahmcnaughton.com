@@ -17,7 +17,7 @@ html {
 
 /* has a media-query overwrite */
 #main {
-  font-family: 'Lora', serif;
+  font-family: 'Josefin Sans', serif;
   margin: 3em auto 5em;
   width: 500px;
 }
